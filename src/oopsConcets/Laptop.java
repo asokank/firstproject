@@ -13,7 +13,7 @@ public class Laptop {
 		this.battery=battery;
 	}
 	public String toString() {
-		return "BRAND="+brand+","+"PRICE="+price+","+"Ram="+ram+","+"BATTERY="+battery;
+		return brand+","+price+","+ram+","+"BATTERY="+battery;
 	}
 	
 }
